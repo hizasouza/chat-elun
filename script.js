@@ -3,7 +3,7 @@ const userInput = document.getElementById('userInput');
 const chatBox = document.getElementById('chatBox');
 
 // Substitua pelo valor real da sua cadeia de conexão do Copilot Studio
-const CONNECTION_STRING = "SUA_CADEIA_DE_CONEXAO_AQUI";
+const CONNECTION_STRING = "https://c5517d441d7fe40bb088a69201096a.ec.environment.api.powerplatform.com/copilotstudio/dataverse-backed/authenticated/bots/cr52b_agent/conversations?api-version=2022-03-01-preview";
 
 sendButton.addEventListener('click', sendMessage);
 userInput.addEventListener('keypress', function (e) {
